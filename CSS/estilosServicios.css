@@ -1,0 +1,53 @@
+:root{
+    --colorAzulFuerte: #1c3878;
+    --colorAzulClaro: #5f7ea8;
+    --colorOscuro: #eae3d1;
+    --colorClaro: #f8f5ea;
+}
+
+*{
+    color: var(--colorAzulClaro);
+}
+
+#logotipo-barra{
+    height: 50px;
+}
+
+.nav-link:hover{
+    background-color: tan;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .5);
+}
+
+#paginaActual{
+    font-weight: bold;
+}
+
+#texto{
+    background: var(--colorClaro);
+    height: calc(100vh - 70px);
+}
+
+#tituloServicio{
+    color: var(--colorAzulFuerte);
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+.icono-analisis{
+    width: 100%;
+}
+
+h3{
+    color: var(--colorAzulClaro);
+    font-weight: bold;
+}
+
+#botonCita{
+    color: var(--colorAzulFuerte);
+    background-color: var(--colorOscuro);
+    border-radius: 7x;
+    cursor: pointer;
+    align-items: center;
+    width: 30vw;
+    margin: 45px 35vw;
+}
