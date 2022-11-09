@@ -45,6 +45,7 @@ h3{
 #botonCita{
     color: var(--colorAzulFuerte);
     background-color: var(--colorOscuro);
+    border: solid 1px black;
     border-radius: 7x;
     cursor: pointer;
     align-items: center;
