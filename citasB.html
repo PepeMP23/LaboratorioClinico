@@ -26,6 +26,10 @@
             box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .5);
         }
 
+        .col-12{
+            margin: 0 auto;
+        }
+
         #botonCita{
             margin: 10px auto;
             width: 10vw;
@@ -71,16 +75,52 @@
             <div class="row">
                 <h2 style="font-weight: bold; text-align: center; margin-top: 25px; color: #1c3878;">Ingresa los datos del paciente:</h2>
             </div>
-            <div class="row" style="margin-top: 35px;">
-                <div class="col-12 col-md-6">
-                    <img src="" alt="Aquí va el calendario">
+            <div class="row" style="margin-top: 35px; align-items: center;">
+                <div class="col-12 col-md-4" style="margin: 0 auto; align-items: center;">
+                    <label for="nombre" style="margin: 12px 0; font-size: medium; color: #1c3878; font-weight: bold;">Nombre:<br>
+                        <input type="text" id="nombre" style="margin: 0 auto; margin-top: 12px; border-radius: 2px; width: 90%;">
+                    </label>
                 </div>
-                <div class="col-12 col-md-6">
-                    <h3 style="font-weight: bold; text-align: center; color: #1c3878;">Hola:</h3>
+                <div class="col-12 col-md-4">
+                    <label for="ApePat" style="margin: 12px 0; font-size: medium; color: #1c3878; font-weight: bold;">Apellido Paterno:<br>
+                        <input type="text" id="ApePat" style="margin: 0 auto; margin-top: 12px; border-radius: 2px; width: 90%;">
+                    </label>
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="ApeMat" style="margin: 12px 0; font-size: medium; color: #1c3878; font-weight: bold;">Apellido Materno:<br>
+                        <input type="text" id="ApeMat" style="margin: 0 auto; margin-top: 12px; border-radius: 2px; width: 90%;">
+                    </label>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 35px; align-items: center;">
+                <div class="col-12 col-md-4" style="margin: 0 auto; align-items: center;">
+                    <label for="telefono" style="margin: 12px 0; font-size: medium; color: #1c3878; font-weight: bold;">Telefono:<br>
+                        <input type="phone" id="telefono" style="margin: 0 auto; margin-top: 12px; border-radius: 2px; width: 90%;">
+                    </label>
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="email" style="margin: 12px 0; font-size: medium; color: #1c3878; font-weight: bold;">Email:<br>
+                        <input type="mail" id="email" style="margin: 0 auto; margin-top: 12px; border-radius: 2px; width: 90%;">
+                    </label>
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="edad" style="margin: 12px 0; font-size: medium; color: #1c3878; font-weight: bold;">Edad:<br>
+                        <input type="number" id="edad" style="margin: 0 auto; margin-top: 12px; border-radius: 2px; width: 90%;">
+                    </label>
                 </div>
             </div>
             <div class="row" style="margin-top: 35px;">
                 <a id="botonCita" class="btn btn-primary" href="citasB.html" role="button">Guardar Datos</a>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    
+                    <label>Forma de Pago:<br>
+                        <input class="radio" name="radio" type="radio" value="Credito">Tarjeta de Crédito</input><br>
+                        <input class="radio" name="radio" type="radio" value="Debito">Tarjeta de Débito</input><br>
+                        <input class="radio" name="radio" type="radio" value="Efectivo">Efectivo</input><br>
+                    </label><br>
+                </div>
             </div>
         </div>
     </div>
